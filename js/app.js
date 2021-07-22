@@ -3,7 +3,7 @@ function updateExchangeRates(update){
     const date = document.getElementById('date');
     const usdBuy = document.getElementById('usd-buy-rate');
     const usdSell = document.getElementById('usd-sell-rate');
-    const eurBuy = document.getElementById('eur-buy-ratgi e');
+    const eurBuy = document.getElementById('eur-buy-rate');
     const eurSell = document.getElementById('eur-sell-rate');
     date.textContent = update.date;
     usdBuy.textContent = update.usd.buyRate;
